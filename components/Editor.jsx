@@ -22,7 +22,8 @@ const Editor = ({data, handleInstance}) => {
                 instanceRef={(instance) => handleInstance(instance)}
                 tools={EDITOR_JS_TOOLS} 
                 data={data}
-                placeholder={`Write from here...`}/>
+                placeholder={`Write from here...`}
+            />
 }
 
  // Return the CustomEditor to use by other components.                    
