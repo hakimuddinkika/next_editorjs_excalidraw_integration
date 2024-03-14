@@ -6,11 +6,11 @@ const ExcalidrawWrapper = () => {
   console.info(convertToExcalidrawElements([{
     type: "rectangle",
     id: "rect-1",
-    width: 186.47265625,
-    height: 141.9765625,
+    // width: 186.47265625,
+    // height: 141.9765625,
   },]));
   return (
-    <div style={{height:"85vh", width:"85vw"}}>  
+    <div style={{ height: "700px" }}>
       <Excalidraw />
     </div> 
   );
